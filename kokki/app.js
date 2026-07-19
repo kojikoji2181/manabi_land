@@ -202,6 +202,7 @@ import"react";import{createRoot as qa}from"react-dom/client";import{useState as 
 .shape-area {
   position: relative;
   width: 100%;
+  flex: 1;
   min-height: 190px;
   display: flex;
   align-items: center;
@@ -209,7 +210,7 @@ import"react";import{createRoot as qa}from"react-dom/client";import{useState as 
   padding: 6px 0;
 }
 .flag-img {
-  width: min(68vw, 270px);
+  width: min(76vw, 300px);
   height: auto;
   display: block;
   border: 1.5px solid var(--line);
